@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Анимация загрузки</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Noto Serif', serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-color: #f4f4f4;
         }
         .loader {
             border: 16px solid #f3f3f3;
+            border-top: 16px solidrgb(0, 0, 0);
             border-radius: 50%;
-            border-top: 16px solid #4682b4;
             width: 120px;
             height: 120px;
             animation: spin 2s linear infinite;
